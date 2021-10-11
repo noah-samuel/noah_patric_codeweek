@@ -17,11 +17,5 @@ Im Team Arbeit optimal unterteilen.
 Im Team ein gemeinsames Repository führen.
 Im Team ein gemeinsames Kanban-Board führen.
 
-_____________________________
-|                ______     |
-|   |     |     |      |    |
-|   ||    |     |______|    |
-|   |  |  |     |           |
-|   |   | |     |           |
-|   |    ||     |           |
-|___________________________ |
+
+
