@@ -16,3 +16,12 @@ Einen eigenen PHP code zum Ausgeben der API-Daten schreiben.
 Im Team Arbeit optimal unterteilen.
 Im Team ein gemeinsames Repository führen.
 Im Team ein gemeinsames Kanban-Board führen.
+
+_____________________________
+|                ______     |
+|   |     |     |      |    |
+|   ||    |     |______|    |
+|   |  |  |     |           |
+|   |   | |     |           |
+|   |    ||     |           |
+|___________________________|
