@@ -11,8 +11,8 @@ Patrick Cilmi
 Noah-Samuel
 
 ##SMARTe Ziele
-API-Daten in Variablen umwandeln und im Programm nutzen können
-Einen eigenen PHP code zum Ausgeben der API-Daten schreiben
-Im Team Arbeit optimal unterteilen 
-Im Team ein gemeinsames Repository führen
-Im Team ein gemeinsames Kanban-Board führen
+API-Daten in Variablen umwandeln und im Programm nutzen können.
+Einen eigenen PHP code zum Ausgeben der API-Daten schreiben.
+Im Team Arbeit optimal unterteilen.
+Im Team ein gemeinsames Repository führen.
+Im Team ein gemeinsames Kanban-Board führen.
