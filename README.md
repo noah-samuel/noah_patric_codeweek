@@ -18,7 +18,7 @@ Im Team ein gemeinsames Repository führen.
 Im Team ein gemeinsames Kanban-Board führen.
 
 ##Teamkodex 
-Wi Helfen uns gegenseitig. 
+Wir helfen uns gegenseitig. 
 Einer stützt den anderen.
 Wir arbeitetn fair und gerecht.
 Wir geben beide unser bestes für ein erfolgreiches Projekt.
