@@ -28,4 +28,3 @@ Wir geben beide unser Bestes für ein erfolgreiches Projekt.
 Als Nutzer möchte ich Youtube videos über den Terminal filtern, um meine Suchergebnisse zu beschränken,  welche mir Zeit sparen.
 Ich als Nutzer möchte einen gefilterte/sortierte Auswahl an Videos erhalten, die meinen Anforderungen entsprechen, um mir meine Videos gut auszusuchen zu können.
 
-Kleiner Test ob vsc bei mir funktioniert.
