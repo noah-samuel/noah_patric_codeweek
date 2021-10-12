@@ -22,3 +22,7 @@ Wir helfen uns gegenseitig.
 Einer stützt den anderen.
 Wir arbeitetn fair und gerecht.
 Wir geben beide unser bestes für ein erfolgreiches Projekt.
+
+
+##Userstory 
+Als Nutzer möchte ich Youtube videos über den Terminal filtern, um meine Suchergebnisse zu beschränken,  welche mir Zeit sparen.
