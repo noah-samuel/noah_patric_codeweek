@@ -20,8 +20,8 @@ Im Team ein gemeinsames Kanban-Board führen.
 ##Teamkodex 
 Wir helfen uns gegenseitig. 
 Einer stützt den anderen.
-Wir arbeitetn fair und gerecht.
-Wir geben beide unser bestes für ein erfolgreiches Projekt.
+Wir arbeiteten fair und gerecht.
+Wir geben beide unser Bestes für ein erfolgreiches Projekt.
 
 
 ##Userstory 
