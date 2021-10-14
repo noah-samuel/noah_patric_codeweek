@@ -2,7 +2,7 @@
 
 $title = "[TITLE]"; //for emxample: Championsleague, SRF, GTA, Fifa; (Bei Suchanfrage mit mehreren Wörtern, zwischen jedem wort ein '+' setzen. Z.B. Cristiano+Ronaldo+Freistoss+Tor)
 $maxResults = "[NUMBER]";  //Eine Nummer setzen. Z.B. 5;
-$key = "[GOOGLE API-KEY";  //Dein API-Key;
+$key = "[GOOGLE API-KEY]";  //Dein API-Key;
 $order = "[ORDER FILTER]"; //Zum Beispiel: date, videoCount, viewCount, relevance, title einsetzbar. Sortiert erhaltene Informationen nach diesen Eigenschaften;
 $videoduration = "[VIDEODURATION]"; //Zum Beispiel: any, short, medium, long einsetzbar;
 
