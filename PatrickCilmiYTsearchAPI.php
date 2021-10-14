@@ -1,6 +1,6 @@
 <?php
 
-        printf("        Suchbegriff       (Zum Beispiel: Championsleague, SRF, GTA, Fifa; (Bei Suchanfrage mit mehreren Wörtern, zwischen jedem wort ein '+' setzen. Z.B. Cristiano+Ronaldo+Freistoss+Tor) \n");
+        printf(" Suchbegriff (Zum Beispiel: Championsleague, SRF, GTA, Fifa; (Bei Suchanfrage mit mehreren Wörtern, zwischen jedem wort ein '+' setzen. Z.B. Cristiano+Ronaldo+Freistoss+Tor) \n");
         $title = readline(); //Zum Beispiel: Championsleague, SRF, GTA, Fifa; (Bei Suchbegriff mit mehreren Wörtern, zwischen jedem wort ein '+' setzen. Z.B. Cristiano+Ronaldo+Freistoss+Tor)
         printf("Anzahl Ergebnisse \n");
         $maxResults = readline();  //Eine Nummer setzen. Z.B. 5;
@@ -10,7 +10,6 @@
         $videoduration = readline();  //Zum Beispiel: any, short, medium, long einsetzbar;
         printf("Dein API key: \n");
         $key = readline(); //Dein API-Key;
-
 
 $curl_session = curl_init();
 //step2
@@ -22,16 +21,11 @@ curl_close($curl_session);
 //step5
 echo $result;
 
-$url = "https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=$maxResults&format=json&q=$title&order=$order&videoDuration=$videoduration&key=$key";
-
-
 // Abhängig von der API, hier json
 $headers = array(
     'Accept: application/json',
     'Content-Type: application/json',
 );
-$url = "https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=$maxResults&format=json&q=$title&order=$order&videoDuration=$videoduration&key=$key";
-
 
 $curl = curl_init();
 curl_setopt($curl, CURLOPT_URL, $url);
