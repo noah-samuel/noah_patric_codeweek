@@ -36,5 +36,5 @@ foreach ($result["items"] as $item) {
     print ("kind: " . $item ["id"] ["kind"] . "\n\n");
     print ("Video ID: " . $item ["id"] ["videoId"] . "\n");
     print ("Channel ID: " . $item ["snippet"] ["channelId"] . "\n\n");
-    print ("Thumbnail URL: " . $item ["snippet"] ["thumbnails"] ["high"] ["url"]);
+    print ("Thumbnail URL: " . $item ["snippet"] ["thumbnails"] ["high"] ["url"] . "\n\n");
 }
