@@ -4,7 +4,7 @@
         $title = readline(); //Zum Beispiel: Championsleague, SRF, GTA, Fifa; (Bei Suchbegriff mit mehreren Wörtern, zwischen jedem wort ein '+' setzen. Z.B. Cristiano+Ronaldo+Freistoss+Tor)
         printf("Anzahl Ergebnisse \n");
         $maxResults = readline();  //Eine Nummer setzen. Z.B. 5;
-        printf("Sortierung angezeigter Videos: date, videoCount, viewCount, relevance, title \n");
+        printf("Sortierung angezeigter Ergebnisse: date, videoCount, viewCount, relevance, title \n");
         $order = readline(); //Zum Beispiel: date, videoCount, viewCount, relevance, title einsetzbar. Sortiert erhaltene Informationen nach diesen Eigenschaften;
         printf("Videolänge: any, short, medium, long \n");
         $videoduration = readline();  //Zum Beispiel: any, short, medium, long einsetzbar;
