@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body, html {
+    background: #202020;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.wrapper > img{
+    justify-self: flex-start;
+    margin-right: auto;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.flexbox-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: 5%;
+    flex-wrap: wrap;
+width: 10;
+}
+.flexbox-item {
+    max-width: 250px;
+    margin: 10px;
+    background-color: blanchedalmond;
+    height: auto;
+    border-radius: 3%;
+}
+.flexbox-item > img{
+    width: 100%;
+    height: 20%;
+    border-top-right-radius: 3%;
+    border-top-left-radius: 3%;
+}
+.text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 10px;
+}
+.text h1{
+    font-size: 13px;
+}
+.text p{
+    font-size: 10px;
+}
+/* body{
+    height: 100vh;
+    width: 100%;
+    background: #FF676D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.box{
+    position: absolute;
+    margin: 0 auto;
+    top: 10%;
+    max-width: 400px;
+    width: 100%;
+}
+.box .search-box{
+    position: relative;
+    height: 50px;
+    max-width: 380px;
+    margin: auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+#check:checked ~ .search-box{
+    max-width: 380px;
+}
+.search-box input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    background: #fff;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.search-box .icon{
+    position: absolute;
+    right: -2px;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    color: #FF676D;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.search-box .icon{
+    background: #FF676D;
+    color: #FFF;
+    width: 60px;
+    border-radius: 0 25px 25px 0;
+}
+#check{
+    display: none;
+}
+/* searchbox von https://www.youtube.com/watch?v=fYq5PXgSsbE */
